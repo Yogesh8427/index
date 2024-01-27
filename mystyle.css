@@ -1,0 +1,36 @@
+.mycard{
+    position: relative;
+}
+.web{
+    overflow: hidden;
+    /* height: 50vh; */
+    scroll-behavior:smooth;
+}
+
+/* .card-items:hover{
+    overflow-x: auto;
+} */
+.scrollbutton{
+    display: flex;
+    justify-content: space-between;
+}
+.scrollbutton button{
+    padding:5px 10px;
+    border-radius: 50%;
+    border: none;
+}
+.scrollbutton button{
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.scrollbutton button:hover{
+    cursor: pointer;
+}
+#scrollleft{
+    position: absolute;
+    top: 90%
+}
+#scrollright{
+    position: absolute;
+    top: 90%;
+    right: 10px;
+}
